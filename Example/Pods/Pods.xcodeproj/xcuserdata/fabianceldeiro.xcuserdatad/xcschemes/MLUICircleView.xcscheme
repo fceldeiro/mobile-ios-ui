@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "FDE3238A03A64FA0AC36B8F6"
+               BlueprintIdentifier = "4203AFFC425D4EB096506DF3"
                BuildableName = "MLUICircleView.bundle"
                BlueprintName = "MLUICircleView"
                ReferencedContainer = "container:Pods.xcodeproj">

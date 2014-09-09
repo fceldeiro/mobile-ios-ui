@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3DB63167CEAE445FB496A3B9"
+               BlueprintIdentifier = "C9363AF14D304A0682DB2A8A"
                BuildableName = "MLUICore.bundle"
                BlueprintName = "MLUICore"
                ReferencedContainer = "container:Pods.xcodeproj">

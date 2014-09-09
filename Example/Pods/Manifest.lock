@@ -6,6 +6,7 @@ PODS:
     - MLUI/CircleView
 
 DEPENDENCIES:
+  - MLUI/CircleView (from `../`)
   - MLUI/RedCircleView (from `../`)
 
 EXTERNAL SOURCES:

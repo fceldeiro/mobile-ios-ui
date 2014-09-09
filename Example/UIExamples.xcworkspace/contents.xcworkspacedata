@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Workspace
    version = "1.0">
-   <FileRef
-      location = "group:MLUIRedCircleViewExample/MLUIRedCircleViewExample.xcodeproj">
-   </FileRef>
    <Group
       location = "container:"
       name = "PodSpec">
@@ -17,6 +14,9 @@
          location = "group:../README.md">
       </FileRef>
    </Group>
+   <FileRef
+      location = "group:MLUIRedCircleViewExample/MLUIRedCircleViewExample.xcodeproj">
+   </FileRef>
    <FileRef
       location = "group:MLUISquareViewExample/MLUISquareViewExample.xcodeproj">
    </FileRef>
