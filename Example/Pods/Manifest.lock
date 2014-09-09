@@ -1,0 +1,16 @@
+PODS:
+  - MLUI/CircleView (0.0.1):
+    - MLUI/Core
+  - MLUI/Core (0.0.1)
+
+DEPENDENCIES:
+  - MLUI/CircleView (from `../`)
+
+EXTERNAL SOURCES:
+  MLUI:
+    :path: ../
+
+SPEC CHECKSUMS:
+  MLUI: a01a216437d3d37f61c46a7fef62e80dfe48ba95
+
+COCOAPODS: 0.33.1
