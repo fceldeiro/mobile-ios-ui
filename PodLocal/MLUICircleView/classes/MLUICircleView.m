@@ -16,6 +16,8 @@
     if (self) {
         // Initialization code
         
+        self.fillColor = [UIColor yellowColor];
+        
     }
     return self;
 }
@@ -29,7 +31,7 @@
     
     CGContextRef context = UIGraphicsGetCurrentContext();
   //  CGContextSetFillColorWithColor(context, self.fillColor.CGColor);
-    CGContextSetStrokeColorWithColor(context, [[UIColor yellowColor] CGColor]);
+    CGContextSetStrokeColorWithColor(context, [self.fillColor CGColor]);
     UIBezierPath *circlePath = [UIBezierPath bezierPath];
     [circlePath addArcWithCenter:CGPointMake(rect.size.width/2  , rect.size.height/2) radius:rect.size.width/2 startAngle:-M_PI endAngle:M_PI clockwise:YES];
     [circlePath setLineWidth:1];

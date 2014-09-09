@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 #import <MLUI/MLUICoreView.h>
 
-@interface MLUICircleView : MLUICoreView
 
+@interface MLUICircleView : MLUICoreView
+@property (nonatomic,strong) UIColor * fillColor;
 @end

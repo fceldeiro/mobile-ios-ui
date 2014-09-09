@@ -43,6 +43,7 @@ install_resource()
 }
 install_resource "${BUILT_PRODUCTS_DIR}/MLUICircleView.bundle"
 install_resource "${BUILT_PRODUCTS_DIR}/MLUICore.bundle"
+install_resource "${BUILT_PRODUCTS_DIR}/MLUIRedCircleView.bundle"
 
 rsync -avr --copy-links --no-relative --exclude '*/.svn/*' --files-from="$RESOURCES_TO_COPY" / "${CONFIGURATION_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"
 if [[ "${ACTION}" == "install" ]]; then

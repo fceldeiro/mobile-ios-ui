@@ -2,9 +2,10 @@
 workspace 'UIExamples'
 
 xcodeproj 'MLUICoreExample/MLUICoreExample.xcodeproj'
+    
+target :MLUIRedCircleViewExample do
+    xcodeproj 'MLUIRedCircleViewExample/MLUIRedCircleViewExample.xcodeproj'
+    pod "MLUI/RedCircleView", :path => "../"
 
-target :MLUICircleViewExample do
-    xcodeproj 'MLUICircleViewExample/MLUICircleViewExample.xcodeproj'
-	pod "MLUI/CircleView", :path => "../"
 end
 

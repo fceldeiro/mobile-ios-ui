@@ -14,12 +14,12 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-MLUICircleViewExample-MLUI.xcscheme</key>
+		<key>Pods-MLUIRedCircleViewExample-MLUI.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-MLUICircleViewExample.xcscheme</key>
+		<key>Pods-MLUIRedCircleViewExample.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -27,22 +27,22 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>0100A941B99E4C22B69B3D0E</key>
+		<key>36A917D2C92F42009B52A1A6</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>6478753371B84EAB8F152895</key>
+		<key>3DB63167CEAE445FB496A3B9</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>B3A52750BF694598A87E6C7F</key>
+		<key>599761EE11F941EC836C86F7</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>C89506E770AF4DAB8F36FA13</key>
+		<key>FDE3238A03A64FA0AC36B8F6</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -1,1 +1,32 @@
-<?xml version='1.0' encoding='UTF-8'?><Workspace version='1.0'><FileRef location='group:MLUISquareViewExample/MLUISquareViewExample.xcodeproj'/><FileRef location='group:MLUICircleViewExample/MLUICircleViewExample.xcodeproj'/><FileRef location='group:MLUICoreExample/MLUICoreExample.xcodeproj'/><FileRef location='group:Pods/Pods.xcodeproj'/></Workspace>
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:MLUIRedCircleViewExample/MLUIRedCircleViewExample.xcodeproj">
+   </FileRef>
+   <Group
+      location = "container:"
+      name = "PodSpec">
+      <FileRef
+         location = "group:../LICENSE">
+      </FileRef>
+      <FileRef
+         location = "group:../MLUI.podspec">
+      </FileRef>
+      <FileRef
+         location = "group:../README.md">
+      </FileRef>
+   </Group>
+   <FileRef
+      location = "group:MLUISquareViewExample/MLUISquareViewExample.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:MLUICircleViewExample/MLUICircleViewExample.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:MLUICoreExample/MLUICoreExample.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+</Workspace>
