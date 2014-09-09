@@ -11,19 +11,19 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
 
-  s.subspec 'MLUICore' do |core|
+  s.subspec 'Core' do |core|
     core.resource_bundle = {
       'MLUICore' => ['PodLocal/MLUICore/Assets/*.*']
     }
     core.source_files  = 'PodLocal/MLUICore/Classes/*.{h,m,c}'
   end
 
-  s.subspec 'MLUICircleView' do |circleView|
+  s.subspec 'CircleView' do |circleView|
     circleView.source_files = 'PodLocal/MLUICircleView/Classes/*.{h,m}'
     circleView.resource_bundle = {
       'MLUICircleView' => ['PodLocal/MLUICircleView/Assets/*.*']
     }
-    circleView.dependency 'MLUICore'
+    circleView.dependency 'MLUI/Core'
   end
 end
 
