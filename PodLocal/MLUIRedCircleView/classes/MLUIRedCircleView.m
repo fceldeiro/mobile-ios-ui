@@ -7,6 +7,8 @@
 //
 
 #import "MLUIRedCircleView.h"
+#import <MLNewBoxDependecy/MLNewBox.h>
+
 
 @implementation MLUIRedCircleView
 
@@ -17,6 +19,8 @@
         // Initialization code
         
         self.fillColor = [UIColor redColor];
+        
+        [self addSubview:[[MLNewBox alloc] initWithFrame:CGRectMake(0, 0, 50, 50)]];
         
     }
     return self;

@@ -1,12 +1,15 @@
 PODS:
+  - MLNewBoxDependecy (0.0.1)
   - MLUI/CircleView (0.0.1):
     - MLUI/Core
   - MLUI/Core (0.0.1)
   - MLUI/RedCircleView (0.0.1):
+    - MLNewBoxDependecy
     - MLUI/CircleView
 
 DEPENDENCIES:
   - MLUI/CircleView (from `../`)
+  - MLUI/Core (from `../`)
   - MLUI/RedCircleView (from `../`)
 
 EXTERNAL SOURCES:
@@ -14,6 +17,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  MLUI: 513a93c086abc01ca079982b51bf5e703e8bc870
+  MLNewBoxDependecy: d49518225a0b5ffd159afe7eb014b721e818e138
+  MLUI: eefcc16b87e3c9e615007a25a187fde5a9fd19e9
 
 COCOAPODS: 0.33.1

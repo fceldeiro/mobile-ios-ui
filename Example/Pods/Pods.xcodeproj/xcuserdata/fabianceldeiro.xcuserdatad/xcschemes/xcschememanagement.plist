@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>MLNewBoxDependecy.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>MLUICircleView.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -24,6 +29,21 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Pods-MLUICoreExample-MLUI.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-MLUICoreExample.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-MLUIRedCircleViewExample-MLNewBoxDependecy.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-MLUIRedCircleViewExample-MLUI.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -37,32 +57,52 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>390053D7FAC041368E504577</key>
+		<key>136D1EECB8C24ABC81F4CE63</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>4203AFFC425D4EB096506DF3</key>
+		<key>386D75BDB87D4526AAE246F5</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>5AF58079E42F48AB932213A9</key>
+		<key>4A1C9DF6ED5143A1977BC008</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>7A7DE250039B4D28892104AA</key>
+		<key>6222294BC365445AA373DFBB</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>B5B69B67B6C6457EA3579F16</key>
+		<key>9EA88D2FB12444DF88158A0E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>C9363AF14D304A0682DB2A8A</key>
+		<key>B097CC518EC6402A8F8926F9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C674C2957B734F958A23D646</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C81FE47E13714AAC8E3DDB90</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D736FA3BA179485F8D2ABCDB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DCC01D1F51694C1A8DC568E9</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -29,6 +29,7 @@ Pod::Spec.new do |s|
    s.subspec 'RedCircleView' do |redCircleView|
     redCircleView.source_files = 'PodLocal/MLUIRedCircleView/Classes/*.{h,m}'
     redCircleView.dependency 'MLUI/CircleView'
+    redCircleView.dependency 'MLNewBoxDependecy'
   end
   
 end
