@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
     circleView.resource_bundle = {
       'MLUICircleView' => ['PodLocal/MLUICircleView/Assets/*.*']
     }
-    circleView.dependency 'MLUI/Core'
+    circleView.dependency 'MLUICore'
   end
 end
 
