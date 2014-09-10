@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4A1C9DF6ED5143A1977BC008"
+               BlueprintIdentifier = "26BBCBD5674E436ABE7C689C"
                BuildableName = "MLNewBoxDependecy.bundle"
                BlueprintName = "MLNewBoxDependecy"
                ReferencedContainer = "container:Pods.xcodeproj">

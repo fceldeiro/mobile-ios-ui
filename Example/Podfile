@@ -1,23 +1,29 @@
 
 workspace 'UIExamples'
 
-xcodeproj 'MLUICoreExample/MLUICoreExample.xcodeproj'
+xcodeproj 'MLUIComponents/MLUIComponents.xcodeproj'
 
 
-target :MLUICoreExample do
-    xcodeproj 'MLUICoreExample/MLUICoreExample.xcodeproj'
-    pod "MLUI/Core", :path => "../"
-end
-
-target :MLUICircleViewExample do
-    xcodeproj 'MLUICircleViewExample/MLUICircleViewExample.xcodeproj'
-	pod "MLUI/CircleView", :path => "../"
-end
+#target :MLUIComponents do
+#    xcodeproj 'MLUIComponents/MLUIComponents.xcodeproj'
+#    pod "MLUI", :path => "../"
+#end
 
 
-target :MLUIRedCircleViewExample do
-    xcodeproj 'MLUIRedCircleViewExample/MLUIRedCircleViewExample.xcodeproj'
-    pod "MLUI/RedCircleView", :path => "../"
+pod "MLUI", :path => "../"
+#pod 'KIF', '3.0.7'
+#pod 'OCMock', '3.0.2'
+#pod 'XCTAsyncTestCase', '0.1.0'
 
-end
+
+
+
+#target :MLUIRedCircleViewExample do
+#    xcodeproj 'MLUIRedCircleViewExample/MLUIRedCircleViewExample.xcodeproj'
+#    pod "MLUI/RedCircleView", :path => "../"
+#    pod "MLUI/ParalelogramView", :path => "../"
+#    pod "AFNetworking" , '2.4.1'
+#
+#end
+
 

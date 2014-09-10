@@ -13,25 +13,26 @@ Pod::Spec.new do |s|
 
   s.subspec 'Core' do |core|
     core.resource_bundle = {
-      'MLUICore' => ['PodLocal/MLUICore/Assets/*.*']
+      'Core' => ['MLUI/Core/assets/*.*']
     }
-    core.source_files  = 'PodLocal/MLUICore/Classes/*.{h,m,c}'
+    core.source_files  = 'MLUI/Core/classes/*.{h,m,c}'
   end
 
   s.subspec 'CircleView' do |circleView|
-    circleView.source_files = 'PodLocal/MLUICircleView/Classes/*.{h,m}'
+    circleView.source_files = 'MLUI/CircleView/classes/*.{h,m}'
     circleView.resource_bundle = {
-      'MLUICircleView' => ['PodLocal/MLUICircleView/Assets/*.*']
+      'CircleView' => ['MLUI/CircleView/assets/*.*']
     }
     circleView.dependency 'MLUI/Core'
   end
-  
+
    s.subspec 'RedCircleView' do |redCircleView|
-    redCircleView.source_files = 'PodLocal/MLUIRedCircleView/Classes/*.{h,m}'
+    redCircleView.source_files = 'MLUI/RedCircleView/classes/*.{h,m}'
     redCircleView.dependency 'MLUI/CircleView'
     redCircleView.dependency 'MLNewBoxDependecy'
   end
-  
+
+
 end
 
 

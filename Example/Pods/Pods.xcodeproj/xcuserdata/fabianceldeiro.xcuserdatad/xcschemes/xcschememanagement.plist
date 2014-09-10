@@ -4,52 +4,32 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>CircleView.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Core.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>MLNewBoxDependecy.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>MLUICircleView.xcscheme</key>
+		<key>Pods-MLNewBoxDependecy.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>MLUICore.xcscheme</key>
+		<key>Pods-MLUI.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-MLUICircleViewExample-MLUI.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>Pods-MLUICircleViewExample.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>Pods-MLUICoreExample-MLUI.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>Pods-MLUICoreExample.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>Pods-MLUIRedCircleViewExample-MLNewBoxDependecy.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>Pods-MLUIRedCircleViewExample-MLUI.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>Pods-MLUIRedCircleViewExample.xcscheme</key>
+		<key>Pods.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -57,52 +37,32 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>136D1EECB8C24ABC81F4CE63</key>
+		<key>156F09C4AA394B3BB21BC095</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>386D75BDB87D4526AAE246F5</key>
+		<key>26BBCBD5674E436ABE7C689C</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>4A1C9DF6ED5143A1977BC008</key>
+		<key>3F846AA03374457096E3E442</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>6222294BC365445AA373DFBB</key>
+		<key>58E7D56D7CEB48B2B868DB74</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>9EA88D2FB12444DF88158A0E</key>
+		<key>7CDE36FBB5144B61B806B09A</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>B097CC518EC6402A8F8926F9</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>C674C2957B734F958A23D646</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>C81FE47E13714AAC8E3DDB90</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>D736FA3BA179485F8D2ABCDB</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>DCC01D1F51694C1A8DC568E9</key>
+		<key>CAB956FE39CE443D81213100</key>
 		<dict>
 			<key>primary</key>
 			<true/>

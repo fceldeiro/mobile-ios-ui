@@ -1,30 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Workspace
    version = "1.0">
-   <Group
-      location = "container:"
-      name = "PodSpec">
-      <FileRef
-         location = "group:../LICENSE">
-      </FileRef>
-      <FileRef
-         location = "group:../MLUI.podspec">
-      </FileRef>
-      <FileRef
-         location = "group:../README.md">
-      </FileRef>
-   </Group>
    <FileRef
-      location = "group:MLUIRedCircleViewExample/MLUIRedCircleViewExample.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:MLUISquareViewExample/MLUISquareViewExample.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:MLUICircleViewExample/MLUICircleViewExample.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:MLUICoreExample/MLUICoreExample.xcodeproj">
+      location = "group:MLUIComponents/MLUIComponents.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">
