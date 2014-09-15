@@ -9,7 +9,14 @@
 #import <UIKit/UIKit.h>
 #import <MLUI/MLUICoreView.h>
 
-
+/*!
+ *  @brief  Clase Seba SARASA para testear documentacion
+ */
 @interface MLUICircleView : MLUICoreView
-@property (nonatomic,strong) UIColor * fillColor;
+
+/*!
+ *  @brief  Color de relleno
+ */
+@property (nonatomic, strong) UIColor *fillColor;
+
 @end
