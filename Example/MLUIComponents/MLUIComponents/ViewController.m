@@ -18,6 +18,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     MLUIRedCircleView * redCircle = [[MLUIRedCircleView alloc] initWithFrame:CGRectMake(0, 0, 100, 100)];
+    redCircle.fillColor = [UIColor redColor];
     [self.view addSubview:redCircle];
 }
 
